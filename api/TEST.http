@@ -1,0 +1,51 @@
+### Find ALl Cardio Activities
+GET http://localhost:8080/api/cardio/AllCardio
+
+### Find Cardio By ID
+GET http://localhost:8080/api/cardio/2
+
+
+### Create new Cardio Activity
+POST http://localhost:8080/api/cardio
+Content-Type: application/json
+
+{
+  "id": 11,
+  "name": "Leg",
+  "description": "targetting the lower back",
+  "equipment": "CABLE_MACHINE",
+  "targetMuscle": "pull",
+  "difficulty": "High",
+  "type": "Gym"
+}
+
+### Create new Cardio Activity with invalid Equipment
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+
+{
+  "id": 5,
+  "name": "Pull",
+  "description": "targetting the lower back",
+  "equipment": "barr",
+  "targetMuscle": "Back",
+  "difficulty": "High",
+  "type": "Gym"
+}
+
+### Update an existing Cardio Activity
+PUT http://localhost:8080/api/cardio/4
+Content-Type: application/json
+
+{
+  "id": 4,
+  "name": "LEG",
+  "description": "targetting the lower back",
+  "equipment": "STAIRMASTER",
+  "targetMuscle": "Back",
+  "difficulty": "High",
+  "type": "Gym"
+}
+
+### Delete a Cardio Activity
+DELETE http://localhost:8080/api/cardio/11

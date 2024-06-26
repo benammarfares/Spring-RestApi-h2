@@ -6,6 +6,8 @@ import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
+
 
 @Repository
 public class CardioRepo {
@@ -13,6 +15,10 @@ public class CardioRepo {
 
      List <Cardio> findAll(){
          return cardioList;
+     }
+
+     Optional <Cardio> findById(int id){
+         return cardioList.stream().filter(cardio->cardio.id()==id).findFirst();
      }
 
      @PostConstruct
@@ -32,4 +38,24 @@ public class CardioRepo {
                  "Beginner",
                  "Cardio"));}
 
+    void add (Cardio cardio){
+        cardioList.add(cardio);
+    }
+
+    void update(Cardio cardio,Integer id){
+         Optional<Cardio> cardioOptional = findById(id);
+         if (cardioOptional.isPresent()){
+                 cardioList.set(cardioList.indexOf(cardioOptional.get()),cardio);
+         }
+    }
+
+    void delete(Integer id){
+         Optional<Cardio> cardioOptional = findById(id);
+        if (cardioOptional.isPresent()){
+            cardioList.remove(cardioOptional.get());
+        }
+    }
+
+
 }
+

@@ -1,13 +1,24 @@
 package dev.first.runnerz.cardio;
 
-public record Cardio(Integer id,
+import jakarta.validation.constraints.NotEmpty;
+
+public record Cardio(
+        Integer id,
+    @NotEmpty
     String name,
+    @NotEmpty
     String description,
-    Equipment equipment,
+
+        Equipment equipment,
+    @NotEmpty
     String targetMuscle,
+    @NotEmpty
     String difficulty,
+    @NotEmpty
     String type
 )
 
 
-{}
+{
+
+}
