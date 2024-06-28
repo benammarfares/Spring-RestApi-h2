@@ -52,10 +52,11 @@
 ![h2-console](https://github.com/benammarfares/Unlifted-Curse_2D-SDL-Game/assets/99650831/dc68b103-ec85-4e9d-a6a5-ee2cf10f0ad0)
 
 <br>
-* I recently began learning Spring Boot, and this is a small project I've undertaken to become more familiar with the framework.
-* This project contains two packages - 
-  * One for CRUD operations without using a database (cardio).
-  * And another package for CRUD operations using JDBC (embedded).
+
+* I recently began learning Spring Boot, and this is a small project I've undertaken to become more familiar with the framework.<br>
+* This project contains two packages :<br> 
+  * One for CRUD operations without using a database (cardio).<br>
+  * And another package for CRUD operations using JDBC (embedded).<br>
 
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
