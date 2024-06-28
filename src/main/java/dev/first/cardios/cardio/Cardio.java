@@ -1,21 +1,20 @@
-package dev.first.runnerz.cardio;
+package dev.first.cardios.cardio;
 
 import jakarta.validation.constraints.NotEmpty;
 
 public record Cardio(
-        Integer id,
+     Integer id,
     @NotEmpty
     String name,
     @NotEmpty
     String description,
-
-        Equipment equipment,
+    Equipment equipment,
     @NotEmpty
     String targetMuscle,
     @NotEmpty
     String difficulty,
     @NotEmpty
-    String type
+    String typee
 )
 
 

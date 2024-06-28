@@ -1,26 +1,26 @@
 ### Find ALl Cardio Activities
-GET http://localhost:8080/api/cardio/AllCardio
+GET http://localhost:8080/api/cardio/jdbc/AllCardio
 
 ### Find Cardio By ID
-GET http://localhost:8080/api/cardio/2
+GET http://localhost:8080/api/cardio/jdbc/5
 
 
 ### Create new Cardio Activity
-POST http://localhost:8080/api/cardio
+POST http://localhost:8080/api/cardio/jdbc
 Content-Type: application/json
 
 {
   "id": 11,
   "name": "Leg",
-  "description": "targetting the lower back",
-  "equipment": "CABLE_MACHINE",
+  "description": "targetting",
+  "equipment": "KETTLEBELL",
   "targetMuscle": "pull",
   "difficulty": "High",
   "typee": "Gym"
 }
 
 ### Create new Cardio Activity with invalid Equipment
-POST http://localhost:8080/api/runs
+POST http://localhost:8080/api/runs/jdbc
 Content-Type: application/json
 
 {
@@ -34,18 +34,18 @@ Content-Type: application/json
 }
 
 ### Update an existing Cardio Activity
-PUT http://localhost:8080/api/cardio/4
+PUT http://localhost:8080/api/cardio/jdbc/5
 Content-Type: application/json
 
 {
-  "id": 4,
+  "id": 5,
   "name": "LEG",
   "description": "targetting the lower back",
-  "equipment": "STAIRMASTER",
+  "equipment": "KETTLEBELL",
   "targetMuscle": "Back",
   "difficulty": "High",
   "typee": "Gym"
 }
 
 ### Delete a Cardio Activity
-DELETE http://localhost:8080/api/cardio/11
+DELETE http://localhost:8080/api/cardio/jdbc/5

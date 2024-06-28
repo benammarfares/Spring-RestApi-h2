@@ -1,4 +1,4 @@
-package dev.first.runnerz.cardio;
+package dev.first.cardios.cardio;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

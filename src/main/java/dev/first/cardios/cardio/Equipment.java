@@ -1,4 +1,4 @@
-package dev.first.runnerz.cardio;
+package dev.first.cardios.cardio;
 
 public enum Equipment {
     NONE,

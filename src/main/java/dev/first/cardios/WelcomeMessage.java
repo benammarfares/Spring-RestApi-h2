@@ -1,4 +1,4 @@
-package dev.first.runnerz;
+package dev.first.cardios;
 
 import org.springframework.stereotype.Component;
 @Component

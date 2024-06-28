@@ -1,4 +1,4 @@
-package dev.first.runnerz.cardio;
+package dev.first.cardios.cardio;
 
 
 import jakarta.annotation.PostConstruct;
@@ -13,7 +13,7 @@ import java.util.Optional;
 public class CardioRepo {
      private List <Cardio> cardioList = new ArrayList<>();
 
-     List <Cardio> findAll(){
+  List <Cardio> findAll(){
          return cardioList;
      }
 

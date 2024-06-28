@@ -1,0 +1,69 @@
+
+{
+  "cardio": [
+    {
+      "id": 1,
+      "name": "Running",
+      "description": "Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot. ",
+      "equipment": "KETTLEBELL",
+      "targetMuscle": "CARDIO",
+      "difficulty": "EASY",
+      "typee": "CARDIO"
+    },
+    {
+      "id": 2,
+      "name": "Cycling",
+      "description": "Cycling, also called biking or bicycling, is the use of bicycles for transport, recreation, exercise or sport.",
+      "equipment": "KETTLEBELL",
+      "targetMuscle": "CARDIO",
+      "difficulty": "EASY",
+      "typee": "CARDIO"
+    },
+    {
+      "id": 3,
+      "name": "Swimming",
+      "description": "Swimming is an individual or team sport that requires the use of one's entire body to move through water.",
+      "equipment": "KETTLEBELL",
+      "targetMuscle": "CARDIO",
+      "difficulty": "EASY",
+      "typee": "CARDIO"
+    },
+    {
+      "id": 4,
+      "name": "Jumping Jacks",
+      "description": "Jumping jacks are a physical jumping exercise performed by jumping to a position with the legs spread wide and the hands touching overhead and then returning to a position with the feet together and the arms at the sides.",
+      "equipment": "KETTLEBELL",
+      "targetMuscle": "CARDIO",
+      "difficulty": "EASY",
+      "typee": "CARDIO"
+    },
+    {
+      "id": 5,
+      "name": "Burpees",
+      "description": "The burpee, or squat thrust, is a full body exercise used in strength training and as an aerobic exercise.",
+      "equipment": "KETTLEBELL",
+      "targetMuscle": "CARDIO",
+      "difficulty": "EASY",
+      "typee": "CARDIO"
+    },
+    {
+      "id": 6,
+      "name": "High Knees",
+      "description": "High knees is a high-intensity exercise that works your major muscle groups.",
+      "equipment": "KETTLEBELL",
+      "targetMuscle": "CARDIO",
+      "difficulty": "EASY",
+      "typee": "CARDIO"
+    },
+    {
+      "id": 7,
+      "name": "Mountain Climbers",
+      "description": "Mountain climbers are a great total body exercise. You use your core because you are stabilizing your body. ",
+      "equipment": "KETTLEBELL",
+      "targetMuscle": "CARDIO",
+        "difficulty": "EASY",
+      "typee": "CARDIO"
+      }
+  ]
+
+}
